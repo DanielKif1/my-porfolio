@@ -298,6 +298,25 @@ span{
     justify-content: space-evenly;
     padding: 40px;
 }
+.skill {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+
+.skill img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.skill:hover {
+    transform: translateX(10px); /* Apply a translateX transform on hover */
+}
 
 
 @media screen and (max-width: 600px) {
